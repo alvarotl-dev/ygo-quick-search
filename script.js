@@ -73,7 +73,7 @@ document.getElementById("searchBox").onkeydown = function(e) {
 
 	if(evtobj.shiftKey && evtobj.keyCode == 13 && checkTextBox())
 	{
-		chrome.tabs.create({ url: "https://db.ygoprodeck.com/search/?card=" + document.getElementById("searchBox").alt });
+		chrome.tabs.create({ url: "https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=1&sess=1&rp=20&keyword=" + document.getElementById("searchBox").alt});
 	}
 
 	else if(!evtobj.shiftKey && evtobj.keyCode == 13 && checkTextBox()) {
