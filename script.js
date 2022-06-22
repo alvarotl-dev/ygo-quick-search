@@ -82,7 +82,7 @@ document.getElementById("searchBox").onkeydown = function(e) {
 			chrome.tabs.create({ url: "http://shop.tcgplayer.com/yugioh/product/show?ProductName=" + document.getElementById("searchBox").alt });
 
 		else //If its an European player, it searches for MKM
-			chrome.tabs.create({ url: "https://www.cardmarket.com/es/YuGiOh/Products/Search?searchString=" + document.getElementById("searchBox").alt });
+			chrome.tabs.create({ url: "https://www.cardmarket.com/es/YuGiOh/Products/Search?searchString=" + document.getElementById("searchBox").alt + "&mode=gallery"});
 
 	}
 
