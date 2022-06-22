@@ -36,10 +36,6 @@ function checkTextBox(){	//Parse the information on the text box and then check 
 //**************************************************EVENT HANDLING***********************************************************************************************/
 /***************************************************************************************************************************************************************/
 
-//Redirect to DBS Decks Main Page
-document.getElementById("YGOTOPDECKSButton").onclick = function() {
-	chrome.tabs.create({ url: "http://yugiohtopdecks.com"});
-};
 
 //Redirect to TCGPlayer
 document.getElementById("TCGPlayerButton").onclick = function() {
@@ -51,7 +47,7 @@ document.getElementById("TCGPlayerButton").onclick = function() {
 };
 
 document.getElementById("cardListButton").onclick = function() {
-	chrome.tabs.create({ url: "https://db.ygoprodeck.com"});
+	chrome.tabs.create({ url: "https://ygoprodeck.com/category/decks/tournament-meta-decks/"});
 }
 
 function isTCGPlayer(){

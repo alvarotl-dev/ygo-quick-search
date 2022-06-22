@@ -44,7 +44,7 @@ body {
 #TCGPlayerButton {
 	margin-top: 3px;
 	margin-left: 1px;
-	padding: 5px 32px 5px 32px;
+	padding: 5px 33px 5px 33px;
 	background-image: -webkit-linear-gradient(rgb(0, 139, 53),rgb(91, 172, 15));
   	border-radius: 5px;
 }
@@ -52,27 +52,11 @@ body {
 #cardListButton {
 	margin-top: 3px;
 	margin-left: 1px;
-	padding: 5px 39px 5px 39px;
+	padding: 5px 36px 5px 36px;
 	background-image: -webkit-linear-gradient(rgb(139, 102, 0),rgb(250, 121, 0));
   	border-radius: 5px;
 }
  
-#YGOTOPDECKSButton{
-	margin-top: 3px;
-	margin-left: 1px;
-	padding: 5px 29px 5px 28px;
-	background-image: -webkit-linear-gradient(rgb(2, 105, 153),rgb(3, 171, 238));
-	border-radius: 5px;
-}
-
-
-#YGOTOPDECKSButton:hover{
-	background-image: -webkit-linear-gradient(rgb(34, 157, 214),rgb(45, 219, 211));
-}
-
-#YGOTOPDECKSButton:active{
-	background-image: -webkit-linear-gradient(rgb(9, 79, 112),rgb(6, 109, 103));
-}
 
 
 #TCGPlayerButton:hover{
