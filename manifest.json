@@ -1,9 +1,9 @@
  {
 	"manifest_version": 3,
 	"name": "YuGiOh Quick Search",
-	"version": "0.0.0.2",
+	"version": "1.0",
 	"description": "Search cards on CardMarket or TCGPlayer and get quick access to YGO Top Decks and YGO Pro Database",
-	"baction": {
+	"action": {
 		"default_popup": "popup.html",
 		"default_title": "YGO Quick Search"
 	},

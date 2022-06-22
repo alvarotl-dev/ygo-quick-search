@@ -57,6 +57,7 @@ function isTCGPlayer(){
 
 
 function KeyPress(e) {
+	var evtobj = window.event? event : e
 	if (evtobj.keyCode == 13 && evtobj.shiftKey) alert("Ctrl+z");
 }
 
